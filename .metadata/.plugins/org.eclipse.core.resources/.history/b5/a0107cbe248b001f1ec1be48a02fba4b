@@ -1,0 +1,5 @@
+package com.aprendendospring.curso.resources;
+
+public class UserResource {
+
+}
