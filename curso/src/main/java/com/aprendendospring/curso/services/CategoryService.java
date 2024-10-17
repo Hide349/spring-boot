@@ -7,9 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.aprendendospring.curso.entities.Category;
-import com.aprendendospring.curso.entities.Order;
 import com.aprendendospring.curso.repositories.CategoryRepository;
-
 
 @Service
 public class CategoryService {
@@ -20,6 +18,8 @@ public class CategoryService {
 	public List<Category> findAll(){
 		return repository.findAll();
 	}
+	
+	
 	
 	
 	public Category findById(Long id) {
