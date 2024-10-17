@@ -4,6 +4,7 @@ import java.io.Serializable;
 import java.time.Instant;
 import java.util.Objects;
 
+import com.aprendendospring.curso.entities.enums.OrderStatus;
 import com.fasterxml.jackson.annotation.JsonFormat;
 
 import jakarta.persistence.Entity;
@@ -34,12 +35,15 @@ public class Order implements Serializable{
 	@JoinColumn(name = "client_id")
 	private User client;
 	
+	private Integer orderstatus;
+	
 	public Order() {
 		
 	}
 
-	public Order(Long id, Instant moment, User client) {
-		super();
+
+	public Order(Long id, Instant moment, User client, OrderStatus orderstatus) {
+		setOrderstatus(orderstatus);
 		this.id = id;
 		this.moment = moment;
 		this.client = client;
@@ -49,6 +53,16 @@ public class Order implements Serializable{
 		return id;
 	}
 
+
+	public OrderStatus getOrderstatus() {
+		return OrderStatus.valueOf(orderstatus);
+	}
+
+	public void setOrderstatus(OrderStatus orderstatus) {
+		if(orderstatus != null) {
+			this.orderstatus = orderstatus.getCode();
+		}
+	}
 	public void setId(Long id) {
 		this.id = id;
 	}
