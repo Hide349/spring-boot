@@ -4,14 +4,14 @@
     <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.JpaRepository"/>
     <fullyQualifiedTypeName name="com.aprendendospring.curso.entities.User"/>
     <fullyQualifiedTypeName name="java.time.Instant"/>
-    <fullyQualifiedTypeName name="com.aprendendospring.curso.entities.Order"/>
     <fullyQualifiedTypeName name="com.aprendendospring.curso.entities.enums.OrderStatus"/>
-    <fullyQualifiedTypeName name="java.util.Set"/>
     <fullyQualifiedTypeName name="jakarta.persistence.Id"/>
-    <fullyQualifiedTypeName name="jakarta.persistence.Table"/>
     <fullyQualifiedTypeName name="jakarta.persistence.GenerationType"/>
     <fullyQualifiedTypeName name="com.aprendendospring.curso.entities.Category"/>
     <fullyQualifiedTypeName name="java.util.Optional"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="jakarta.persistence.Transient"/>
+    <fullyQualifiedTypeName name="com.aprendendospring.curso.entities.Order"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Table"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
 </qualifiedTypeNameHistroy>
