@@ -62,7 +62,6 @@ INDEX VERSION 1.134+C:\Users\ruanp\Documents\spring-projects\.metadata\.plugins\
 4280719466.index
 2394678788.index
 3486354117.index
-3331841758.index
 1110377545.index
 2829983420.index
 1218758634.index
