@@ -1,5 +1,0 @@
-package com.aprendendospring.curso.entities.enums;
-
-public enum OrderStatus {
-
-}
